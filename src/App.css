@@ -154,7 +154,7 @@ span.navbar-text {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 18px 34px;
+  padding: 8px 34px;
   border-radius: 10px;
   font-size: 18px;
   margin-left: 18px;
@@ -170,7 +170,7 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #fff;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border-radius: 10px;
   left: 0;
   top: 0;
@@ -178,8 +178,9 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: #121212;
+  color: #ffffff;
 }
+
 .navbar-text button:hover::before {
 	content: "";
 	width: 100%;
@@ -236,6 +237,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
@@ -311,6 +313,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;
+  background-image: url('./assets/img/website-bg.png');
   position: relative;
 }
 
@@ -408,7 +411,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-image: url('./assets/img/projects-bg.png');
 }
 .project h2 {
 	font-size: 45px;
@@ -532,12 +535,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  background-image: url('./assets/img/website-bg.png');
+  padding: 60px 0 60px 0;
 }
 .contact img {
-  width: 92%;
+  width: 52%;
+  top: 0px;
+  left: 50px;
+  animation: updown 3s linear infinite;
+  position: relative;
 }
+
 .contact h2 {
 	font-size: 45px;
 	font-weight: 700;
@@ -608,8 +616,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  padding: 50px 0 50px 0;
+  background-image: url('./assets/img/projects-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

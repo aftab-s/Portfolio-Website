@@ -88,6 +88,11 @@ export const Skills = () => {
                           <h5>LINUX</h5>
                           <br></br>
                         </div>
+                        <div className="item">
+                          <img src={meter2} alt="Image" />
+                          <h5>Python</h5>
+                          <br></br>
+                        </div>
                       </Carousel>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">

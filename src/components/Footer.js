@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { MailchimpForm } from "./MailchimpForm";
+// import { MailchimpForm } from "./MailchimpForm";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import github from "../assets/img/github.svg";
@@ -11,7 +11,7 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          <MailchimpForm />
+          {/* <MailchimpForm /> */}
           <Col size={12} sm={6}>
             <img src={logo} alt="Logo" />
           </Col>
@@ -22,7 +22,7 @@ export const Footer = () => {
                 <a href="https://www.instagram.com/devon_clive__/?hl=en"><img src={navIcon3} alt="" /></a>
                 <a href="https://www.artstation.com/aftabs2001"><img src={artstation} alt="" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Created by - Aftab S under the guidance of WebDecoded</p>
           </Col>
         </Row>
       </Container>
