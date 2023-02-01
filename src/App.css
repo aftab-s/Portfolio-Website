@@ -83,7 +83,7 @@ p.danger {
 }
 /************ Navbar Css ************/
 nav.navbar {
-  padding: 18px 0;
+  padding: 10px 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -94,6 +94,7 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
+
 nav.navbar a.navbar-brand {
     width: 9%;
 }
@@ -362,15 +363,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border-radius: 0;
 }
 
-/* .nav-link#skills-tabs-tab-first {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
-}
-.nav-link#skills-tabs-tab-second {
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-} */
-
 .skill-bx {
   background: #151515;
   border-radius: 64px;
@@ -533,7 +525,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background-image: url('./assets/img/website-bg.png');
   padding: 60px 0 60px 0;
@@ -583,8 +575,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: rgb(0, 0, 0);
   padding: 14px 48px;
   font-size: 18px;
-  margin-top: 25px;
-  border-radius: 50px;
+  border-radius: 20px;
   position: relative;
   transition: 0.3s ease-in-out;
 }
@@ -594,15 +585,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover {
   color: #fff;
-  background-color: rgb(12, 0, 54);
-  border-radius: 50px;
+  background-color: transparent;
+  border-radius: 20px;
 }
 .contact form button::before {
   content: "";
   background: #121212;
   background-color: rgb(12, 0, 54);
   width: 0;
-  border-radius: 50px;
+  border-radius: 20px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -611,30 +602,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover::before {
   width: 100%;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 /************ Footer Css ************/
 .footer {
-  padding: 50px 0 50px 0;
+  padding: 40px 0 30px 0;
   background-image: url('./assets/img/projects-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.newsletter-bx {
-  background: #FFFFFF;
-  border-radius: 55px;
-  color: #121212;
-  padding: 85px 125px;
-  margin-bottom: 80px;
-  margin-top: -122px;
+
+.footer .img{
+  width: 50%;
 }
-.newsletter-bx h3 {
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 1.2em;
-}
+
 .new-email-bx {
   background: #fff;
   padding: 5px;

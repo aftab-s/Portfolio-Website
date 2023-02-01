@@ -39,7 +39,7 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Skills</h2>
+              <h2>Skills</h2><br></br>
               <TrackVisibility as={TabContainer}>
                 <Tab.Container id="skills-tabs" defaultActiveKey="first">
                   <Nav

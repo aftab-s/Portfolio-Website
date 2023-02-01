@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import helmet from "../assets/img/Helmet.png";
+import monitor from "../assets/img/monitor.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -67,7 +67,7 @@ I always make sure to make each second I spend worthy, either I would try my han
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={helmet} alt="Header Img"/>
+                  <img src={monitor} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
           </Col>
